@@ -1,0 +1,26 @@
+.city,.temperature,.weather,.wind {
+   background-color: rgba(17, 36, 88, 0.548);
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+}
+body {
+color: snow;  
+  background-image:url("img/globe5.jpg");
+
+}
+.city{
+    background-repeat: no-repeat;
+
+}
