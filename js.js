@@ -16,9 +16,10 @@ let api = function (city){
             const {icon} = value.weather[0];
 
             document.getElementById("city").innerHTML=value.name+", "+value.sys.country
-            document.getElementById("temperature").innerHTML=value.main.temp+" °"
-            document.getElementById("weather").innerHTML=`<img src="icons/${icon}.png">`+value.weather[0].main
-            document.getElementById("wind").innerHTML=value.wind.speed+" km/h"
+            document.getElementById("temperature").innerHTML=value.main.temp+" ° C"
+            document.getElementById("weather").innerHTML=`<img src="icons/${icon}.png">`+" "+value.weather[0].main
+            document.getElementById("wind").innerHTML=" "+value.wind.speed+" km/h"
+
 
            
         }
@@ -40,4 +41,4 @@ api("koundara");
 
 
 
-console.log(locationIcon);
+
